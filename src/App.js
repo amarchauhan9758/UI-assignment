@@ -1,23 +1,31 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/header-section/headerfiles/Header';
+import Navbar from './components/header-section/headerfiles/Navbar';
+import Banner from './components/banner-section/Banner';
+import HeroSection from './components/main-section/HeroSection';
+import About from './components/about-us-section/About';
+import Garllery from './components/gallery/Garllery';
+import Testcomponents from './components/Testcomponents';
+import Event from './components/events/Event';
+import Excellences from './components/excellences/Excellences';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <Navbar/>
+      <Banner/>
+      <HeroSection/>
+      <About/>
+      <Garllery/>
+      <Event/>
+      <Excellences/>
+      <Footer/>
+
+
+
     </div>
   );
 }

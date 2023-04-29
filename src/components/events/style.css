@@ -1,0 +1,68 @@
+.events{
+    max-width: 1400px;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+
+
+}
+   .parent{
+    background: url("/src/images/Group\ 47111.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+
+.parent-event{
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+}
+
+.child{
+    max-width: 33.3%;
+    width: 100%;
+    text-align: center;
+}
+
+.event-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.event-date{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.p-text{
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+.readmore-btn{
+    display: flex;
+    align-items: center;
+    color:#F12967;
+}
+
+
+
+@media only screen  and (max-width: 500px) {
+    .parent-event{
+        flex-direction: column-reverse;
+    }
+
+}
+@media only screen  and (max-width: 1250px) {
+    .parent-event{
+
+        flex-direction: none;
+        flex-wrap: wrap;
+
+    }
+
+}
